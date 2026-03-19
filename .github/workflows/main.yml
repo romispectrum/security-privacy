@@ -35,7 +35,7 @@ jobs:
         run: nr build
 
       - name: Ensure CNAME
-        run: echo 'glasscomputer.info' > dist/CNAME
+        run: echo 'security-privacy.romispectrum.com' > dist/CNAME
 
       - name: Setup Pages
         uses: actions/configure-pages@v4
